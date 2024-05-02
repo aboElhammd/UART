@@ -17,10 +17,13 @@ Handshaking: Some UART implementations may include handshaking signals, such as 
 Implementation: UART transmitters can be implemented in various ways, including dedicated hardware circuits, microcontroller peripherals, or software-based implementations using general-purpose input/output (GPIO) pins and timer/counter modules.
 
 The UART transmitter plays a crucial role in enabling serial communication between devices, allowing data to be transmitted reliably and efficiently over a single or differential communication channel. Its functionality, combined with the corresponding UART receiver, enables the exchange of data in applications ranging from microcontrollers to computer peripherals and industrial systems.
+
 UART has many data formats so the data format that we use is the folllowing  :
-![image](https://github.com/aboElhammd/UART/assets/124165601/4da855fb-113e-461d-97fa-4e60a10a13c0)
+![image](https://github.com/aboElhammd/UART/assets/124165601/eaf896ce-3cbe-4176-90d4-637c64c4b7e9)
 ![image](https://github.com/aboElhammd/UART/assets/124165601/9e549150-f968-4313-830c-519bfb25055e)
+
 we can use both even or odd bit so the code is configured so that we can use both .
+
 the UART TX main blocks :
 1-FSM
 2-MUX
